@@ -2,6 +2,8 @@
 
 PDF Gemini Chat is a Python-based application that enables users to interact with PDF documents using conversational AI. The project leverages document chunking, embedding, and retrieval techniques to provide intelligent responses to user queries about the content of uploaded PDFs.
 
+**Note**: You might get rate limited while using the free tier of the Gemini API in case you have a large PDF. If you encounter this, consider using the paid tier. This project works for mostly small to medium-sized PDFs.
+
 ## Features
 - Upload and process PDF documents
 - Chunk PDF content for efficient retrieval
